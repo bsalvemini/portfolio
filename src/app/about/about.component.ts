@@ -9,7 +9,7 @@ import { Component } from '@angular/core';
       <h1>About</h1>
       <div class="about-content">
         <img
-          src="/assets/20231018_114500.jpg"
+          src="assets/20231018_114500.jpg"
           alt="A picture of Brandon Salvemini"
         />
         <p>

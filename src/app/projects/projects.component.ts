@@ -66,7 +66,7 @@ export class ProjectsComponent {
         projectURL: 'https://bsalvemini.github.io/bioSite/',
         projectRepo: 'https://github.com/bsalvemini/bioSite',
         projectScreenshot: {
-          screenshotURL: '/assets/Biosite.jpg',
+          screenshotURL: 'assets/Biosite.jpg',
           imageAltText: 'placeholder',
           imageCaption: 'The home page of the Biosite',
         },
@@ -85,7 +85,7 @@ export class ProjectsComponent {
         projectURL: 'https://salvemini-in-n-out-books.onrender.com',
         projectRepo: 'https://github.com/bsalvemini/in-n-out-books',
         projectScreenshot: {
-          screenshotURL: '/assets/in-n-out-books.jpg',
+          screenshotURL: 'assets/in-n-out-books.jpg',
           imageAltText: 'placeholder',
           imageCaption: 'The landing page for in-n-out-books',
         },
@@ -101,7 +101,7 @@ export class ProjectsComponent {
         projectURL: '#',
         projectRepo: '#',
         projectScreenshot: {
-          screenshotURL: '/assets/rpg-character-builder.jpg',
+          screenshotURL: 'assets/rpg-character-builder.jpg',
           imageAltText: 'placeholder',
           imageCaption: 'The landing page for RPG Character Builder',
         },
@@ -115,7 +115,7 @@ export class ProjectsComponent {
         projectURL: '/',
         projectRepo: 'https://github.com/bsalvemini/portfolio',
         projectScreenshot: {
-          screenshotURL: '/assets/personal-portfolio.jpg',
+          screenshotURL: 'assets/personal-portfolio.jpg',
           imageAltText: 'placeholder',
           imageCaption: 'The About page of the Personal Portfolio website',
         },
