@@ -23,7 +23,7 @@ import { Component } from '@angular/core';
         <a href="{{ project.projectURL }}"
           ><img
             src="{{ project.projectScreenshot.screenshotURL }}"
-            alt="{{ project.projectScreenshot.imageAltText }}"
+            alt="{{ project.projectScreenshot.imageCaption }}"
         /></a>
         <figcaption>{{ project.projectScreenshot.imageCaption }}</figcaption>
       </figure>
@@ -67,7 +67,6 @@ export class ProjectsComponent {
         projectRepo: 'https://github.com/bsalvemini/bioSite',
         projectScreenshot: {
           screenshotURL: 'assets/Biosite.jpg',
-          imageAltText: 'placeholder',
           imageCaption: 'The home page of the Biosite',
         },
       },
@@ -86,37 +85,19 @@ export class ProjectsComponent {
         projectRepo: 'https://github.com/bsalvemini/in-n-out-books',
         projectScreenshot: {
           screenshotURL: 'assets/in-n-out-books.jpg',
-          imageAltText: 'placeholder',
           imageCaption: 'The landing page for in-n-out-books',
         },
       },
       {
         projectID: 3,
-        projectName: 'RPG Character Builder',
-        projectDesc: `This project is an application for creating characters
-         for RPG games. Angular 18 and Node.js were used in this project.
-         I learned a lot from this project. This includes the basics of Angular
-         templates, Angular routing, three different types of Angular forms,
-         about input and output between components, HttpClient and Angular modules.`,
-        projectURL: '#',
-        projectRepo: '#',
-        projectScreenshot: {
-          screenshotURL: 'assets/rpg-character-builder.jpg',
-          imageAltText: 'placeholder',
-          imageCaption: 'The landing page for RPG Character Builder',
-        },
-      },
-      {
-        projectID: 4,
         projectName: 'Personal Portfolio',
         projectDesc: `This is my personal portfolio website that you are currently viewing.
-          Angular 18 was used in this project. This site allowed me to practice some of what
-          I learned in the RPG Character Builder project.`,
-        projectURL: '/',
+          Angular 18 was used in this project. This site allowed me to practice what
+          I learned in the Angular course.`,
+        projectURL: 'https://bsalvemini.github.io/portfolio/',
         projectRepo: 'https://github.com/bsalvemini/portfolio',
         projectScreenshot: {
           screenshotURL: 'assets/personal-portfolio.jpg',
-          imageAltText: 'placeholder',
           imageCaption: 'The About page of the Personal Portfolio website',
         },
       },
