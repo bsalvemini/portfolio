@@ -29,8 +29,8 @@ import { Component } from '@angular/core';
       </figure>
       <div class="project-desc">
         <p>{{ project.projectDesc }}</p>
-        <a href="{{ project.projectURL }}">Link</a>
-        <a href="{{ project.projectRepo }}">GitHub Repo</a>
+        <a href="{{ project.projectURL }}" target="_blank">Link</a>
+        <a href="{{ project.projectRepo }}" target="_blank">GitHub Repo</a>
       </div>
     </div>
     <hr />
@@ -90,10 +90,25 @@ export class ProjectsComponent {
       },
       {
         projectID: 3,
+        projectName: 'RPG Character Builder',
+        projectDesc: `This project is an application for creating characters
+         for RPG games. Angular 18 and Node.js were used in this project.
+         I learned a lot from this project. This includes the basics of Angular
+         templates, Angular routing, three different types of Angular forms,
+         about input and output between components, HttpClient and Angular modules.`,
+        projectURL: 'https://bsalvemini.github.io/rpg-character-builder/',
+        projectRepo: 'https://github.com/bsalvemini/rpg-character-builder',
+        projectScreenshot: {
+          screenshotURL: 'assets/rpg-character-builder.jpg',
+          imageCaption: 'The landing page for RPG Character Builder',
+        },
+      },
+      {
+        projectID: 4,
         projectName: 'Personal Portfolio',
         projectDesc: `This is my personal portfolio website that you are currently viewing.
-          Angular 18 was used in this project. This site allowed me to practice what
-          I learned in the Angular course.`,
+          Angular 18 was used in this project. This site allowed me to practice some of what
+          I learned in the RPG Character Builder project.`,
         projectURL: 'https://bsalvemini.github.io/portfolio/',
         projectRepo: 'https://github.com/bsalvemini/portfolio',
         projectScreenshot: {
